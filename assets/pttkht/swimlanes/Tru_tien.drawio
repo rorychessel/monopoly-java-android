@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="Dong_thue" id="Dong_thue">
+    <mxGraphModel dx="1238" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="swimlane;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="580" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Người chơi" style="swimlane;horizontal=1;" parent="2" vertex="1">
+          <mxGeometry y="30" width="240" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-5" value="Đến ô của người khác, ô thuế hoặc phải nộp phạt" style="rounded=1;whiteSpace=wrap;html=1;" parent="3" vertex="1">
+          <mxGeometry x="60" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Hệ thống" style="swimlane;horizontal=1;" parent="2" vertex="1">
+          <mxGeometry x="240" y="30" width="340" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="4" source="IrOb-KJ-WzEPkYAdivZU-8" target="IrOb-KJ-WzEPkYAdivZU-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-8" value="Trừ tiền" style="rounded=0;whiteSpace=wrap;html=1;" parent="4" vertex="1">
+          <mxGeometry x="200" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-9" value="Thông báo giao dịch" style="rounded=0;whiteSpace=wrap;html=1;" parent="4" vertex="1">
+          <mxGeometry x="200" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-10" value="Yêu cầu bán tài sản" style="rounded=0;whiteSpace=wrap;html=1;" parent="4" vertex="1">
+          <mxGeometry x="60" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="4" source="IrOb-KJ-WzEPkYAdivZU-15" target="IrOb-KJ-WzEPkYAdivZU-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-15" value="Kiểm tra số dư" style="rhombus;whiteSpace=wrap;html=1;" parent="4" vertex="1">
+          <mxGeometry x="80" y="145" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-17" value="Đủ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="4" vertex="1">
+          <mxGeometry x="180" y="160" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="4" source="IrOb-KJ-WzEPkYAdivZU-18" target="IrOb-KJ-WzEPkYAdivZU-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-18" value="Kiểm tra phá sản" style="rounded=0;whiteSpace=wrap;html=1;" parent="4" vertex="1">
+          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="4" source="IrOb-KJ-WzEPkYAdivZU-15" target="IrOb-KJ-WzEPkYAdivZU-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="300" as="sourcePoint" />
+            <mxPoint x="160" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-21" value="Không đủ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="4" vertex="1">
+          <mxGeometry x="120" y="225" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3I8I41rx8RQDa5kfRumz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" source="3I8I41rx8RQDa5kfRumz-4" target="IrOb-KJ-WzEPkYAdivZU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3I8I41rx8RQDa5kfRumz-4" value="Tính toán số tiền cần trừ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4">
+          <mxGeometry x="60" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="2" source="IrOb-KJ-WzEPkYAdivZU-5" target="3I8I41rx8RQDa5kfRumz-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IrOb-KJ-WzEPkYAdivZU-23" value="Trả tiền thuê, thuế, nộp phạt" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="2" vertex="1">
+          <mxGeometry x="205" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
